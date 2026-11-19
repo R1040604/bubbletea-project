@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+  background-color: #f8d7ef;
+}
+
+canvas {
+  display: block;
+}
+
+.tekst {
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  z-index: 1;
+
+  color: #713a78;
+  pointer-events: none;
+}
+
+h1 {
+  margin: 0 0 8px;
+  font-size: 28px;
+}
+
+p {
+  margin: 0;
+  font-size: 15px;
+}
+
+#melding {
+  position: absolute;
+  bottom: 20px;
+  left: 25px;
+  z-index: 1;
+
+  color: #713a78;
+}
